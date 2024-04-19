@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    min-height: 68vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.63), rgba(247, 240, 240, 0.664)), url(../images/cvb.jpg);
+}
+h1{ 
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: rgb(51, 17, 28);
+}
+.hr{
+    position: relative;
+   top: -490px;
+   left: 30px;
+     display: inline;
+     padding: 10px 20px;
+     margin: 10px;
+     color: rgb(255, 255, 255);
+     background-color: rgb(41, 6, 14);
+     transition: background-color 0.3 ease;
+     border-radius: 5px;
+ }
+ .hr:hover{
+     background-color: rgb(24, 12, 17);
+ }
+ h3{
+    margin-left: 50px;
+ }
+ ol{
+    border: solid 1px rgb(51, 17, 28);
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 50px;
+ }
